@@ -11,7 +11,7 @@
   <script src='dist/team-directory.js'></script>
   <script>
     var Directory = TeamDirectory(document.getElementById('app'), {
-      GitHubToken: 27ad8977bfcea1c0da0a65c2908c14d730f75bba,
+      GitHubToken: localStorage.getItem('GitHubToken')
       account: 'cuku',
       repo: 'team-directory',
       branch: 'test-data',
